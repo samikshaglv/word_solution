@@ -1,7 +1,5 @@
-class FibonnaciSequence
-	def fibonnaci(n)
-		return n if(0..1).include?(n)
-		 fibonnaci(n-1) + fibonnaci(n-2)
-	end
-	print fibonnaci(n)
+def fibonnaci(n)
+  return n if(0..1).include?(n)
+  fibonnaci(n-1) + fibonnaci(n-2)
 end
+print fibonnaci(n)
